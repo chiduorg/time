@@ -12,9 +12,9 @@ export function stageColors(theme = currentTheme()) {
   const light = theme === 'light';
   return {
     light,
-    background: light ? 0xeef4f8 : 0x060912,
-    fog: light ? 0xe8eff4 : 0x05080d,
-    exposure: light ? 1.24 : 1.05,
+    background: light ? 0xdde8f1 : 0x060912,
+    fog: light ? 0xd6e2eb : 0x05080d,
+    exposure: light ? 1.12 : 1.05,
     grid: light ? 0x5f7482 : 0x22313f,
     glow: light ? 0xffffff : 0x8fd8ff,
   };
