@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 // 纹理按 URL 缓存；页面离开或视口丢失时中止请求并释放位图。
-export function createTextureStore({base='https://static.chidu.org/media/',invalidate=()=>{}}={}){
+export function createTextureStore({base='/media/',invalidate=()=>{}}={}){
  const records=new Map();let disposed=false;
  const stats=()=>({pending:[...records.values()].filter(r=>r.state==='loading').length,loaded:[...records.values()].filter(r=>r.state==='ready').length,failed:[...records.values()].filter(r=>r.state==='failed').length,cancelled:[...records.values()].filter(r=>r.state==='cancelled').length});
  const publish=()=>dispatchEvent(new CustomEvent('atlas-assets',{detail:stats()}));
@@ -9,7 +9,7 @@ export function createTextureStore({base='https://static.chidu.org/media/',inval
    if(records.has(name)){const item=records.get(name);item.callbacks.add(onReady);if(item.state==='ready')onReady();return item.texture;}
    if(disposed)throw new Error('纹理资源池已释放');
    const canvas=document.createElement('canvas');canvas.width=canvas.height=2;const ctx=canvas.getContext('2d');ctx.fillStyle=color?'#526975':'#777';ctx.fillRect(0,0,2,2);
-   const texture=new THREE.Texture(canvas);texture.colorSpace=color?THREE.SRGBColorSpace:THREE.NoColorSpace;texture.needsUpdate=true;texture.anisotropy=2;
+   const texture=new THREE.Texture(canvas);texture.colorSpace=color?THREE.SRGBColorSpace:THREE.NoColorSpace;texture.needsUpdate=true;texture.anisotropy=8;
    const item={texture,state:'loading',controller:new AbortController(),callbacks:new Set([onReady]),bitmap:null};records.set(name,item);publish();
    item.promise=(async()=>{
     try{
