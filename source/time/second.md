@@ -15,11 +15,12 @@ quantity:
   approximate: false
 displayValue: 1 秒 = 9 192 631 770 个 Cs-133 超精细跃迁周期
 related:
+  - space.light-second
+  - mass.photon
   - time.minute
   - time.hour
   - time.day
   - time.year
-  - time.present
 reviewStatus: reviewed
 sources:
   - title: 'SI base unit: second (s)'
@@ -61,12 +62,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一秒 · 铯原子钟计时示意"
-  note: "原子钟、微波腔与光路为风格化示意，非按比例、非观测重建。"
-  variant: "clock"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一秒 · 铯原子钟计时示意
+  note: 原子钟、微波腔与光路为风格化示意，非按比例、非观测重建。
+  variant: clock
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度

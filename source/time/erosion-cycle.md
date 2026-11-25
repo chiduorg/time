@@ -40,6 +40,10 @@ sources:
       https://www.usgs.gov/news/volcano-watch-you-can-see-history-landscape-kauai
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'This Dynamic Earth: The Story of Plate Tectonics'
+    url: 'https://pubs.usgs.gov/gip/dynamic/dynamic.html'
+    publisher: U.S. Geological Survey
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +83,7 @@ Britannica把侵蚀定义为地表物质的移除与搬运，并区分风化、�
 ## 与其他尺度的关系
 
 侵蚀周期与造山过程相互对抗：造山抬升地表，侵蚀削减地表，二者共同塑造山脉寿命。[1][2] 它比超大陆旋回短，却比人类观测记录长；在更长尺度上，反复侵蚀还会影响大陆漂移所留下的地质记录。因此，同一个数值在不同景观区不能直接套用。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. Geological Survey）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

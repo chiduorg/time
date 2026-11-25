@@ -18,6 +18,7 @@ related:
   - time.lopingian
   - time.permian-triassic-extinction
   - time.first-reptiles
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Guadalupian'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 瓜德鲁普世约 1489 万年，约占二叠纪（约 2.989 亿至 2.519 亿年）的 32%。[1] 它比乐平世长约两倍，但比二叠纪末大灭绝所波及的时段更早；与最早爬行动物条目相比，爬行类在瓜德鲁普世已明显多样化。[2] 若以 80 年一代计算，1489 万年约相当于十九万代人。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

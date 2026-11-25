@@ -246,8 +246,51 @@ void main(){
 export function createSun({radius = 1, hot = '#ffb43c', cool = '#c22600', intensity = 1.0, detail = 1, map = null, tint = '#fff2d8'} = {}) {
   const group = new THREE.Group(); group.name = 'sun';
   if (map) {
-    const material = new THREE.MeshBasicMaterial({map, color: tint});
-    material.color.multiplyScalar(1.3);
+    const placeholder = (() => {
+      const canvas = document.createElement('canvas');
+      canvas.width = 512; canvas.height = 256;
+      const ctx = canvas.getContext('2d');
+      const gradient = ctx.createRadialGradient(256, 128, 8, 256, 128, 252);
+      gradient.addColorStop(0, '#fff7d8');
+      gradient.addColorStop(.35, '#ffd26a');
+      gradient.addColorStop(.72, '#ff9a32');
+      gradient.addColorStop(1, '#c9440d');
+      ctx.fillStyle = gradient; ctx.fillRect(0, 0, 512, 256);
+      let seed = 20261119;
+      const random = () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296;
+      for (let i = 0; i < 420; i++) {
+        const x = random() * 512, y = random() * 256, r = .8 + random() * 5.5;
+        const warm = random() > .28;
+        ctx.fillStyle = warm
+          ? `rgba(255,${180 + Math.round(random() * 60)},${80 + Math.round(random() * 100)},${.14 + random() * .32})`
+          : `rgba(${120 + Math.round(random() * 70)},${35 + Math.round(random() * 30)},10,${.12 + random() * .24})`;
+        ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+      }
+      const texture = new THREE.CanvasTexture(canvas);
+      texture.colorSpace = THREE.SRGBColorSpace;
+      texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
+      return texture;
+    })();
+    const material = new THREE.MeshBasicMaterial({ map: placeholder, color: 0xffffff });
+    const ready = () => {
+      const image = map.image;
+      return !!image && ((image.width || 0) > 8 || (image.naturalWidth || 0) > 8);
+    };
+    if (ready()) {
+      material.map = map;
+      material.color.set(tint);
+      material.color.multiplyScalar(1.3);
+    } else {
+      const timer = setInterval(() => {
+        if (!ready()) return;
+        material.map = map;
+        material.color.set(tint);
+        material.color.multiplyScalar(1.3);
+        material.needsUpdate = true;
+        clearInterval(timer);
+      }, 200);
+      setTimeout(() => clearInterval(timer), 20000);
+    }
     const mesh = new THREE.Mesh(sphere(radius, Math.max(96, Math.round(160 * detail)), Math.max(64, Math.round(110 * detail))), material);
     group.add(mesh);
     group.add(atmosphere(radius * 1.055, 0xff9038, .45));

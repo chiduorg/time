@@ -18,6 +18,7 @@ related:
   - time.permian-triassic-extinction
   - time.lopingian
   - time.first-dinosaurs
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Early%20Triassic'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 早三叠世约 520 万年，约占三叠纪（约 2.519 亿至 2.014 亿年）的 10%。[1] 它比乐平世短，也比中三叠世短；与二叠纪末大灭绝条目相比，它是灭绝之后的恢复时段。[2] 520 万年若按 80 年一代计算，约相当于六万五千代人；它只是三叠纪开头的一小段，却决定了后续生态恢复的起点。与中三叠世相比，这一时期的生物多样性仍明显偏低。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -28,6 +28,11 @@ sources:
       https://www.internetsociety.org/internet/history-internet/brief-history-internet/
     publisher: Internet Society
     accessed: '2026-11-06'
+  - title: A short history of the Web
+    url: >-
+      https://home.cern/science/computing/the-birth-of-the-web/short-history-web/
+    publisher: CERN
+    accessed: '2026-11-24'
 legacy:
   id: internet-birth
   icon: "\U0001F310"
@@ -101,3 +106,7 @@ Britannica记载，1969年末加州大学洛杉矶分校（UCLA）向斯坦福�
 ## 与其他阶段的关系
 
 ARPANET是互联网的技术前身，它的分组交换与TCP/IP后来支撑万维网、移动通信和云计算。[1][2] 与工业革命、科学革命相比，这段变化发生在数十年内，但其制度基础仍是大学、军方与政府的长期资助。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（CERN）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

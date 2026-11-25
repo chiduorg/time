@@ -30,6 +30,7 @@ related:
   - time.heat-death-time
   - time.nuclear-timescale
   - time.big-bang
+  - space.observable-universe
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -42,6 +43,10 @@ sources:
     url: 'https://www-sk.icrr.u-tokyo.ac.jp/en/sk/about/research/'
     publisher: Super-Kamiokande Official Website
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +89,7 @@ tags:
 ## 与其他尺度的关系
 
 质子衰变下限比宇宙年龄大约24个数量级，属于极长时标。[1][2] 它上接大统一理论，下接物质长期命运与热死亡讨论；与黑洞蒸发一样，都是模型与实验共同约束的远期问题，但证据类型不同。探测器规模越大、运行越久，能排除的寿命下限就越高；这也是下一代实验继续增加曝光的原因。这类实验同时检验多种大统一模型，结果以不同衰变道的独立下限呈现。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 2.4000077303152955e+25 十亿光年，在空间轴上量级接近「可观测宇宙」。[3]

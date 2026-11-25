@@ -18,6 +18,7 @@ related:
   - time.mississippian
   - time.permian-period
   - time.first-trees
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Pennsylvanian'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 宾夕法尼亚纪约 2450 万年，约占石炭纪（约 3.5886 亿至 2.989 亿年）的 41%。[1] 它比密西西比纪短；与最早爬行动物条目相比，爬行类在这段时期已经出现并扩展。[2] 2450 万年若按 80 年一代计算，约相当于三十万代人；与密西西比纪相比，它的时间更短但成煤记录更集中。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

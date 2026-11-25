@@ -32,6 +32,10 @@ sources:
     url: 'https://www.nature.com/articles/s41586-023-06896-7'
     publisher: Nature
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: oxygenic-photosynthesis
   icon: ☀
@@ -104,3 +108,5 @@ tags:
 ## 与其他阶段的关系
 
 它上接早期生命与 LUCA 的讨论，下接大氧化事件与真核细胞获得质体。[1][2] 具类囊体蓝细菌的出现为氧气来源提供了生物学基础，但大气氧化的时间线要由地质地球化学记录单独建立。[2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

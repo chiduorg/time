@@ -29,6 +29,10 @@ sources:
     url: 'https://www.nature.com/articles/s41559-024-02461-1'
     publisher: Nature Ecology & Evolution
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: luca
   icon: "\U0001F9EC"
@@ -97,3 +101,5 @@ LUCA 不等于“地球上第一个生命”，在它之前还可以有更早的
 ## 与其他阶段的关系
 
 LUCA 位于最老生命证据之后、真核细胞出现之前，是理解生命树分叉的关键节点。[1][2] 它与产氧光合作用的起源、大氧化事件的时间问题相连，但这些问题各有独立的证据链，不能互相替代。[2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

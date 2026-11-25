@@ -18,6 +18,7 @@ related:
   - time.year
   - time.decade
   - time.fortnight
+  - space.sedna
 reviewStatus: reviewed
 sources:
   - title: week
@@ -33,6 +34,10 @@ sources:
     url: 'https://www.britannica.com/science/month'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -86,3 +91,5 @@ tags:
 ## 与其他尺度的关系
 
 一周向上连接月和年，向下连接天；它不像秒、分钟、小时那样只是十进制或六十进制的换算，而是加入了社会约定的七日循环。[1][2] 阅读月、年条目时，可以看到它们分别采用月相平均与地球公转周期；周则提醒我们，并非所有时间单位都来自天文观测。
+
+按同一真空光速计算，光在这段时间内约走 1212 天文单位，在空间轴上量级接近「塞德娜远日点」。[4]

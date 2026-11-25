@@ -9412,6 +9412,52 @@
     ]
   },
   {
+    "id": "time.indus-valley-civilization",
+    "title": "印度河流域文明：约公元前2600年的城市网络",
+    "titleEn": "Indus Valley Civilization",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "印度河流域文明在约公元前2600年进入城市鼎盛期，以网格街区、排水系统和标准化砖著称；它不是单一帝国，文字至今未解。",
+    "quantity": {
+      "value": 435399854014542400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元前2600年 · 距今约4,626年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 4626,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "南亚",
+      "definition": "以哈拉帕、摩亨佐-达罗等城市进入成熟阶段为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元前2600年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "哈拉帕式城市街区与排水系统的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#b07a52"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
+    ]
+  },
+  {
     "id": "time.egyptian-pyramids",
     "title": "吉萨金字塔建成：第四王朝的纪念性建筑",
     "titleEn": "The Pyramids of Giza",
@@ -9454,6 +9500,52 @@
       "人类与文明",
       "时点",
       "古代"
+    ]
+  },
+  {
+    "id": "time.vedic-period",
+    "title": "吠陀时期：约公元前1500—前500年的文本与聚落",
+    "titleEn": "Vedic Period",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "吠陀时期以吠陀梵语文本、祭祀传统和恒河流域聚落扩展为线索，约公元前1500—前500年；它不是统一王朝，也不是单一族群的整体迁移。",
+    "quantity": {
+      "value": 435399888727902400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元前1500年 · 距今约3,526年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 3526,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "南亚",
+      "definition": "以吠陀梵语文献形成与恒河流域聚落扩展的长期阶段为参照",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元前1500年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "祭祀场地、圣火与早期聚落的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#b78d55"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
     ]
   },
   {
@@ -9590,6 +9682,52 @@
     ]
   },
   {
+    "id": "time.maurya-empire",
+    "title": "孔雀帝国：约公元前322年的次大陆整合",
+    "titleEn": "Maurya Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "孔雀帝国约从公元前322年延续到前185年，是南亚次大陆早期规模最大的政治整合之一；阿育王的石柱与诏令是理解其治理的关键材料。",
+    "quantity": {
+      "value": 435399925902755200,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元前322年 · 距今约2,348年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 2348,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "南亚",
+      "definition": "以旃陀罗笈多建立孔雀王朝为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元前322年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "石柱、诏令与道路网络的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#9d7f58"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
+    ]
+  },
+  {
     "id": "time.roman-empire",
     "title": "罗马帝国建立：从共和到元首制的转折",
     "titleEn": "The Roman Empire",
@@ -9632,6 +9770,52 @@
       "人类与文明",
       "时点",
       "古代"
+    ]
+  },
+  {
+    "id": "time.aksumite-empire",
+    "title": "阿克苏姆帝国：红海贸易与吉兹文",
+    "titleEn": "Aksumite Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "阿克苏姆帝国约在1—7世纪控制红海西岸贸易，以方尖碑、铸币、吉兹文与基督教王权著称；它不是现代埃塞俄比亚的简单前身。",
+    "quantity": {
+      "value": 435399939220062400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元100年 · 距今约1,926年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 1926,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "东非",
+      "definition": "以阿克苏姆城邦进入红海贸易鼎盛期为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元100年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "方尖碑、铸币与红海商路的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#b38355"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "东非"
     ]
   },
   {
@@ -9680,6 +9864,52 @@
     ]
   },
   {
+    "id": "time.maya-classic",
+    "title": "玛雅古典期：约公元250—900年的城邦世界",
+    "titleEn": "Maya Classic Period",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "玛雅古典期约从250年延续到900年，低地城邦留下金字塔、球场、铭文与历法记录；它由多个竞争城邦组成，不是单一帝国。",
+    "quantity": {
+      "value": 435399943953702400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元250年 · 距今约1,776年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 1776,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "中美洲",
+      "definition": "以玛雅低地城邦进入大规模纪念建筑与文字记录阶段为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元250年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "阶梯金字塔、球场与铭文石碑的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#9f8356"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "中美洲"
+    ]
+  },
+  {
     "id": "time.middle-ages",
     "title": "中世纪：西欧历史的一段参照区间",
     "titleEn": "The Middle Ages",
@@ -9722,6 +9952,144 @@
       "人类与文明",
       "时点",
       "人类史"
+    ]
+  },
+  {
+    "id": "time.abbasid-caliphate",
+    "title": "阿拔斯王朝：公元750年的巴格达与翻译运动",
+    "titleEn": "Abbasid Caliphate",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "阿拔斯王朝于750年建立，762年定都巴格达；它把波斯、阿拉伯与地中海世界的行政和知识网络连接起来，直到1258年蒙古攻陷巴格达。",
+    "quantity": {
+      "value": 435399959732502400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元750年 · 距今约1,276年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 1276,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "西亚与北非",
+      "definition": "以阿拔斯革命推翻倭马亚王朝为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元750年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "巴格达城市、纸张与手稿交易的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#a98157"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西亚与北非"
+    ]
+  },
+  {
+    "id": "time.islamic-golden-age",
+    "title": "伊斯兰黄金时代：约公元750—1258年的知识网络",
+    "titleEn": "Islamic Golden Age",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "伊斯兰黄金时代常指约8—13世纪，巴格达、开罗、科尔多瓦等城市出现大规模翻译、数学、光学与医学活动；它不是整个伊斯兰世界同步的单一阶段。",
+    "quantity": {
+      "value": 435399959732502400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元750年 · 距今约1,276年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 1276,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "西亚与地中海",
+      "definition": "以阿拔斯王朝建立后巴格达等城市的知识活动为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元750年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "翻译、手稿与天文仪器的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#b38b5e"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西亚与地中海"
+    ]
+  },
+  {
+    "id": "time.trans-saharan-trade",
+    "title": "跨撒哈拉贸易：8—16世纪的黄金、盐与商队",
+    "titleEn": "Trans-Saharan Trade",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "跨撒哈拉贸易在8—16世纪达到高峰，骆驼商队把西非黄金、盐、布匹与书籍运往北非，再连接到地中海与西亚；它不是一条单一路线。",
+    "quantity": {
+      "value": 435399961310382400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元800年 · 距今约1,226年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 1226,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "西非与北非",
+      "definition": "以伊斯兰商路把西非黄金、盐与地中海市场连接起来的长期网络为参照",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元800年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "骆驼商队、盐板与廷巴克图市场的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#b68c57"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西非与北非"
     ]
   },
   {
@@ -9812,6 +10180,144 @@
       "人类与文明",
       "时点",
       "古代"
+    ]
+  },
+  {
+    "id": "time.mongol-empire",
+    "title": "蒙古帝国：1206年的欧亚通道",
+    "titleEn": "Mongol Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "蒙古帝国于1206年建立，随后扩张为历史上连续的陆上帝国之一；它通过驿站、商路与地方行政连接欧亚，也带来战争、疫病与人口重组。",
+    "quantity": {
+      "value": 435399974122768000,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1206年 · 距今约820年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 820,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "欧亚大陆",
+      "definition": "以铁木真在忽里勒台被推举为成吉思汗为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1206年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "草原骑兵、驿站与商队的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#9f8258"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "欧亚大陆"
+    ]
+  },
+  {
+    "id": "time.mali-empire",
+    "title": "马里帝国：约1235年的黄金与盐路",
+    "titleEn": "Mali Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "马里帝国约从1235年延续到16世纪，以尼日尔河、黄金与跨撒哈拉盐路为核心；廷巴克图和加奥成为西非重要的贸易与学术城市。",
+    "quantity": {
+      "value": 435399975037938400,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1235年 · 距今约791年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 791,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "西非",
+      "definition": "以松迪亚塔击败苏苏王国、建立马里帝国为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1235年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "尼日尔河、商队与廷巴克图土构建筑的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#bf8c53"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西非"
+    ]
+  },
+  {
+    "id": "time.ottoman-empire",
+    "title": "奥斯曼帝国：1299—1922年的跨洲秩序",
+    "titleEn": "Ottoman Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "奥斯曼帝国从1299年的小侯国扩展到跨欧亚非的帝国，1453年攻陷君士坦丁堡，1922年苏丹制废除；它的治理依赖多宗教、多法律的复合结构。",
+    "quantity": {
+      "value": 435399977057624800,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1299年 · 距今约727年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 727,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "西亚、东南欧与北非",
+      "definition": "以奥斯曼侯国在小亚细亚西北部出现为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1299年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "穹顶清真寺、城墙与商队的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#a78258"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西亚、东南欧与北非"
     ]
   },
   {
@@ -9946,6 +10452,98 @@
       "人类与文明",
       "时点",
       "古代"
+    ]
+  },
+  {
+    "id": "time.aztec-empire",
+    "title": "阿兹特克帝国：1428年的三方联盟",
+    "titleEn": "Aztec Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "阿兹特克帝国常以1428年三方联盟形成作为起点，以特诺奇蒂特兰为中心，通过贡赋与战争控制墨西哥中部；1521年被西班牙征服。",
+    "quantity": {
+      "value": 435399981128555200,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1428年 · 距今约598年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 598,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "中美洲",
+      "definition": "以特诺奇蒂特兰、特斯科科与特拉科潘结成三方联盟为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1428年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "湖中城市、浮田与贡赋网络的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#a77e54"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "中美洲"
+    ]
+  },
+  {
+    "id": "time.inca-empire",
+    "title": "印加帝国：1438年的安第斯道路网络",
+    "titleEn": "Inca Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "印加帝国约从1438年进入大规模扩张，以库斯科为中心，通过道路、梯田、仓储与基普绳结管理安第斯山区；1533年被西班牙征服。",
+    "quantity": {
+      "value": 435399981444131200,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1438年 · 距今约588年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 588,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "南美洲",
+      "definition": "以帕查库特克登基、印加进入大规模扩张为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1438年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "梯田、石砌道路与基普绳结的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#a98457"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南美洲"
     ]
   },
   {
@@ -10129,6 +10727,52 @@
     ]
   },
   {
+    "id": "time.safavid-empire",
+    "title": "萨法维帝国：1501年的伊斯法罕与什叶派国教",
+    "titleEn": "Safavid Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "萨法维帝国于1501年建立，把什叶派十二伊玛目派确立为国教，阿拔斯一世时期以伊斯法罕为中心重塑城市与丝路贸易。",
+    "quantity": {
+      "value": 435399983432260000,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1501年 · 距今约525年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 525,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "伊朗与高加索",
+      "definition": "以伊斯玛仪一世建立萨法维王朝、定都大不里士为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1501年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "伊斯法罕广场、清真寺穹顶与丝路商队的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#a98758"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "伊朗与高加索"
+    ]
+  },
+  {
     "id": "time.reformation",
     "title": "宗教改革起点：1517年论纲与欧洲宗教分裂",
     "titleEn": "The Reformation",
@@ -10216,6 +10860,52 @@
       "人类与文明",
       "时点",
       "近代"
+    ]
+  },
+  {
+    "id": "time.mughal-empire",
+    "title": "莫卧儿帝国：1526年的南亚宫廷",
+    "titleEn": "Mughal Empire",
+    "dimension": "cosmic-time",
+    "category": "人类与文明",
+    "summary": "莫卧儿帝国于1526年建立，阿克巴时期扩展到南亚大部，以波斯语宫廷文化、曼萨布达尔制度与泰姬陵等建筑著称；1857年终结。",
+    "quantity": {
+      "value": 435399984221200000,
+      "unit": "s",
+      "measure": "time-after-big-bang-derived-historical-reference",
+      "approximate": true,
+      "measureLabel": "自大爆炸起的推算历史参考时间"
+    },
+    "displayValue": "约公元1526年 · 距今约500年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "chronology": {
+      "status": "reference",
+      "plot": true
+    },
+    "conditions": {
+      "timeBasis": "time.present",
+      "presentSeconds": 435400000000000000,
+      "secondsPerYear": 31557600,
+      "lookbackYears": 500,
+      "conversion": "presentSeconds - lookbackYears × secondsPerYear",
+      "region": "南亚",
+      "definition": "以巴布尔在帕尼帕特战役获胜、建立莫卧儿王朝为导航锚点",
+      "calendarReferenceYear": 2026,
+      "calendarYear": "公元1526年",
+      "note": "轴上年差按 lookbackYears 计，仅用于排序；文明分期不是全地区同一天切换。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "红堡、花园与宫廷细密画的示意",
+      "note": "示意场景，不是考古复原；建筑、器物与人物比例均为解释性表达。",
+      "color": "#b08a5b"
+    },
+    "mode": "时点",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
     ]
   },
   {

@@ -29,6 +29,10 @@ sources:
     url: 'https://pubs.usgs.gov/fs/2007/3004/pdf/FS07-3004_508.pdf'
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: great-oxidation-event
   icon: "\U0001F4A8"
@@ -99,3 +103,5 @@ tags:
 ## 与其他阶段的关系
 
 它发生在产氧光合作用已经出现之后，早于真核生物与多细胞生命的扩展。[1][2] 大气氧上升为复杂细胞与后生动物的需氧代谢创造条件，但真核起源仍有独立的时间证据，不能用大氧化事件直接定年。[2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

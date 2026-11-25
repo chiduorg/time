@@ -17,6 +17,7 @@ related:
   - time.industrial-revolution
   - time.world-population-4-billion
   - time.world-population-8-billion
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: 'World Population Day'
@@ -27,6 +28,10 @@ sources:
     publisher: United Nations Population Fund (UNFPA)
     url: 'https://www.unfpa.org/world-population-trends'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -82,3 +87,5 @@ tags:
 ## 与其他阶段的关系
 
 城市人口过半上承工业革命以来的城市化，与城市起源、人口从10亿到80亿的增长相连。[1][2] 与1974年的40亿和2022年的80亿相比，2007年处在人口增长仍较快、城市化加速的阶段。它也是理解未来城市、基础设施与气候排放问题的基线。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -42,6 +42,10 @@ sources:
     url: 'https://medlineplus.gov/ency/article/002341.htm'
     publisher: 'MedlinePlus, U.S. National Library of Medicine'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -85,3 +89,5 @@ tags:
 ## 与其他尺度的关系
 
 0.8秒的周期比一次眨眼（约0.3秒）长，比一次静息呼吸（约4秒）短。按75次/分算，一生约73年可完成约27亿次心跳；把心跳周期与呼吸周期、昼夜节律并排看，能看到人体内部几种时钟的嵌套关系。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

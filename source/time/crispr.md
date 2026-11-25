@@ -26,6 +26,10 @@ sources:
     url: 'https://www.nobelprize.org/prizes/chemistry/2020/summary/'
     publisher: Nobel Prize Outreach
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: crispr
   icon: ✂️
@@ -98,3 +102,5 @@ CRISPR-Cas9是一种可编程的基因编辑工具：引导RNA把Cas9核酸酶�
 ## 与其他阶段的关系
 
 CRISPR建立在人类基因组计划提供的参考序列与DNA测序技术之上，也依赖分子生物学对细菌免疫系统的长期研究。[1][2] 它把基因编辑从少数模式生物推广到更多物种与细胞类型，但伦理、监管与临床验证仍在持续。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

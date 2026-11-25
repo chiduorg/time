@@ -17,6 +17,8 @@ related:
   - time.first-black-holes
   - time.galaxy-formation
   - time.reionization-epoch
+  - space.milky-way
+  - mass.milky-way
 reviewStatus: reviewed
 sources:
   - title: The Earliest Supermassive Black Hole and Quasar in the Universe

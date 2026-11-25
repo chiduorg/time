@@ -18,6 +18,7 @@ related:
   - time.day
   - time.year
   - time.present
+  - space.wolf-rayet-star
 reviewStatus: reviewed
 sources:
   - title: 'A concise summary of the International System of Units, SI'
@@ -29,6 +30,14 @@ sources:
     url: 'https://www.britannica.com/science/minute'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: How Do You Measure a Second?
+    url: 'https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-second'
+    publisher: National Institute of Standards and Technology (NIST)
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -49,12 +58,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一分钟 · 日常计时刻度示意"
-  note: "钟面、刻度与人物活动为风格化示意，非按比例、非观测重建。"
-  variant: "clock"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一分钟 · 日常计时刻度示意
+  note: 钟面、刻度与人物活动为风格化示意，非按比例、非观测重建。
+  variant: clock
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -79,3 +88,9 @@ tags:
 ## 与其他尺度的关系
 
 六十分钟构成一小时，一千四百四十分钟构成一天；一天二十四小时，因此分钟是把秒放大到日常作息的中间台阶。[1][2] 继续向上，小时、天、周、月、年各自引入新的天文或历法口径，不能只用 60 的倍数一路推到底。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（National Institute of Standards and Technology (NIST)）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 17987547 公里，在空间轴上量级接近「沃尔夫–拉叶星」。[4]

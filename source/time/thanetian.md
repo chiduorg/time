@@ -18,6 +18,7 @@ related:
   - time.eocene-epoch
   - time.petm
   - time.paleogene-period
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'

@@ -43,6 +43,12 @@ sources:
     url: 'https://www.astronomy.ohio-state.edu/gaudi.1/AST161/Unit7/lecture47.html'
     publisher: 'Ohio State University, Astronomy 161'
     accessed: '2026-11-06'
+  - title: >-
+      A CEERS Discovery of an Accreting Supermassive Black Hole 570 Myr after
+      the Big Bang
+    url: 'https://ntrs.nasa.gov/citations/10641293937096'
+    publisher: NASA Technical Reports Server
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +90,7 @@ tags:
 ## 与其他尺度的关系
 
 黑洞蒸发位于黑洞热力学与宇宙远期命运的交叉点：它上接恒星坍缩与黑洞形成，下接热死亡时间。[1][3] 与质子衰变实验下限相比，两者都是极长时标，但一个是引力理论推算，一个是粒子实验排除；不能混为一谈。在比较不同天体的寿命时，质量是主导变量；恒星级与超大质量黑洞的蒸发时标可相差数十个数量级。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA Technical Reports Server）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

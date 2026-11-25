@@ -27,6 +27,10 @@ sources:
       https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project
     publisher: NHGRI / NIH
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: human_genome
   icon: "\U0001F9EC"
@@ -102,3 +106,5 @@ NHGRI的回顾说明，2003年计划结束时序列覆盖约92%的基因组，�
 ## 与其他阶段的关系
 
 HGP上接DNA双螺旋结构与测序技术，下接CRISPR等编辑工具、精准医学与人群基因组学。[1][2] 在时间轴上，2003年与2022年相隔19年，说明“完成”本身也是分阶段的技术过程。[1] HGP还推动了数据公开与伦理讨论，成为后续大型生命科学计划的组织范本。[2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

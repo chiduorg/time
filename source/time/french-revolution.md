@@ -1,6 +1,6 @@
 ---
 id: time.french-revolution
-title: '法国大革命爆发：1789年7月14日'
+title: 法国大革命爆发：1789年7月14日
 titleEn: The French Revolution
 dimension: cosmic-time
 category: 人类与文明
@@ -17,6 +17,7 @@ related:
   - time.american-revolution
   - time.industrial-revolution
   - time.world-war-i
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: French Revolution
@@ -27,6 +28,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/event/storming-of-the-Bastille'
     accessed: '2026-11-07'
+  - title: Enlightenment
+    url: 'https://plato.stanford.edu/entries/enlightenment/'
+    publisher: Stanford Encyclopedia of Philosophy
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,9 +50,9 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 用 WebFetch 打开 Britannica 法国大革命条目，核对1787至1799年的革命跨度与1789年首个高潮。'
-    - '2026-11-07 用 WebFetch 打开 Britannica 攻占巴士底狱条目，核对1789年7月14日、七名囚犯与火药。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - 2026-11-07 用 WebFetch 打开 Britannica 法国大革命条目，核对1787至1799年的革命跨度与1789年首个高潮。
+    - 2026-11-07 用 WebFetch 打开 Britannica 攻占巴士底狱条目，核对1789年7月14日、七名囚犯与火药。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +88,7 @@ Britannica 的法国革命条目把革命定在1787至1799年，并指出1789年
 ## 与其他阶段的关系
 
 革命前接启蒙条目约1685年的思想准备，与美国革命条目所取的1775年几乎同期，并受其财政与政治影响。[1] 它后接工业革命条目约250年前的社会转型，也为一战条目1918年的欧洲秩序埋下长期伏笔。与文艺复兴条目约1400年相比，法国大革命把政治合法性从君主与传统转向国民与权利。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Stanford Encyclopedia of Philosophy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

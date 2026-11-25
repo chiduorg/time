@@ -29,6 +29,10 @@ sources:
     url: 'https://pubs.usgs.gov/fs/2007/3004/pdf/FS07-3004_508.pdf'
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: formation-of-oceans
   icon: "\U0001F4A7"
@@ -99,3 +103,5 @@ tags:
 ## 与其他阶段的关系
 
 这条线索紧接地球形成与大碰撞之后，说明地表在很早就可能冷却到足以保存液态水。[1][2] 它为此后最早的生命证据提供了环境背景，但水出现不等于生命已经起源；与“早期生命”条目应分开阅读。[1]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

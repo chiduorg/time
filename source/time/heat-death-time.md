@@ -28,6 +28,7 @@ related:
   - time.dark-energy-domination
   - time.proton-decay-limit
   - time.big-bang
+  - space.observable-universe
 reviewStatus: reviewed
 sources:
   - title: 'Lecture 47: Death in the Universe'
@@ -40,6 +41,10 @@ sources:
     url: 'https://arxiv.org/abs/astro-ph/9701131'
     publisher: arXiv / Reviews of Modern Physics
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +84,7 @@ tags:
 ## 与其他尺度的关系
 
 热死亡位于宇宙时间轴的最远端，上接恒星熄灭、质子衰变和黑洞蒸发，下接无法再定义过程的平衡态。[1][2] 与超新星或人类历史相比，它大到无法用日常时间单位直观感受；把它写成“模型推断”比写成“未来日程”更准确。热死亡不是某个天体的死亡，而是整个宇宙失去做功能力的状态；这一状态本身也没有可观测的“发生时刻”。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 1.0000032209647064e+91 十亿光年，在空间轴上量级接近「可观测宇宙」。[3]

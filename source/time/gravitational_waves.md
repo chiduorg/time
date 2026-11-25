@@ -16,6 +16,8 @@ related:
   - time.first-black-holes
   - time.present
   - time.james_webb
+  - space.human
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: GW150914

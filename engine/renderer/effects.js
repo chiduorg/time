@@ -23,13 +23,13 @@ export function createSceneField(scene,fragment){
     ${fragment}
     vec3 lightStage(vec3 c){
       c=clamp(c,0.,1.);
-      vec3 paper=vec3(.90,.93,.96);
-      vec3 ink=clamp(paper-(1.-c)*.82,0.,1.);
+      vec3 paper=vec3(.958,.968,.976);
+      vec3 ink=clamp(paper-(1.-c)*.64,0.,1.);
       float l=max(max(c.r,c.g),c.b);
       vec3 hue=c/(l+1e-4);
-      return clamp(mix(ink,hue*.8+.20,.18*smoothstep(.10,.85,l)),0.,1.);
+      return clamp(mix(ink,hue*.74+.23,.18*smoothstep(.10,.85,l)),0.,1.);
     }
-    void main(){vec2 p=(uvField-.5)*vec2(uAspect,1.)*2.;vec3 color=field(p,uTo,uTime);if(uBlend<.999)color=mix(field(p,uFrom,uTime),color,smoothstep(0.,1.,uBlend));if(uTheme>.5)color=lightStage(color);float vignette=1.-smoothstep(.35,2.2,length(p))*(uTheme>.5?.18:.4);gl_FragColor=vec4(color*vignette,1.);
+    void main(){vec2 p=(uvField-.5)*vec2(uAspect,1.)*2.;vec3 color=field(p,uTo,uTime);if(uBlend<.999)color=mix(field(p,uFrom,uTime),color,smoothstep(0.,1.,uBlend));if(uTheme>.5)color=lightStage(color);float vignette=1.-smoothstep(.35,2.2,length(p))*(uTheme>.5?.12:.4);gl_FragColor=vec4(color*vignette,1.);
     #include <tonemapping_fragment>
     #include <colorspace_fragment>
     }`

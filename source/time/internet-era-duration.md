@@ -29,6 +29,7 @@ related:
   - time.digital-age
   - time.industrial-era-duration
   - time.decade
+  - space.orion-nebula
 reviewStatus: reviewed
 sources:
   - title: The birth of the Web
@@ -40,6 +41,10 @@ sources:
       https://www.internetsociety.org/internet/history-internet/brief-history-internet/
     publisher: Internet Society
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +84,7 @@ tags:
 ## 与其他尺度的关系
 
 30年约为三个十年，短于工业时代的250年，却经历了从拨号到移动宽带的多次换代。[1][2] 它承接工业时代的信息需求，并与数字时代、人工智能等技术阶段重叠。从拨号上网到移动网络，基础设施的覆盖范围也在持续变化。因此，30年更适合作为公众普及阶段的量级，而不是整个网络技术史的跨度。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 30 光年，在空间轴上量级接近「猎户座大星云」。[3]

@@ -18,6 +18,7 @@ related:
   - time.guadalupian
   - time.permian-triassic-extinction
   - time.early-triassic
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Lopingian'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 乐平世约 761 万年，只占二叠纪约 4700 万年的 16%，却包含地球历史上规模最大的生物灭绝。[1][2] 它比瓜德鲁普世短，比早三叠世长；与“二叠纪末大灭绝”条目相比，乐平世是包含该事件的时段，而不是事件本身。761 万年若按 80 年一代计算，约相当于九万五千代人；它比早三叠世多约 240 万年，因此更接近二叠纪末灭绝的高峰。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

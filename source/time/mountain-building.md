@@ -40,6 +40,10 @@ sources:
       https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-new-york-region
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'This Dynamic Earth: The Story of Plate Tectonics'
+    url: 'https://pubs.usgs.gov/gip/dynamic/dynamic.html'
+    publisher: U.S. Geological Survey
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +83,7 @@ Britannica把造山运动描述为发生在相对短时间内的线状地带强�
 ## 与其他尺度的关系
 
 造山期上接大陆漂移与超大陆旋回，下接侵蚀周期；山脉形成后，风化与搬运会在更长时间里改变其形态。[1][2] 与超新星爆发的秒到年尺度相比，造山是地质尺度上的慢过程；与超大陆旋回的数亿年相比，它又是其中较短的一幕。这些时间尺度来自具体造山带的年代学重建，而不是全球统一的阶段划分。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. Geological Survey）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

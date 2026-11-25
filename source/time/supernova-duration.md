@@ -29,6 +29,8 @@ related:
   - time.heavy-element-enrichment
   - time.first-black-holes
   - time.solar-system
+  - space.light-second
+  - mass.photon
 reviewStatus: reviewed
 sources:
   - title: supernova

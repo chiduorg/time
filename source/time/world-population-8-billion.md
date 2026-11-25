@@ -17,6 +17,7 @@ related:
   - time.near-future-2030
   - time.near-future-2100
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: 'Day of Eight Billion'
@@ -27,6 +28,10 @@ sources:
     publisher: United Nations Population Fund (UNFPA)
     url: 'https://www.unfpa.org/world-population-trends'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -82,3 +87,5 @@ tags:
 ## 与其他阶段的关系
 
 80亿节点紧接1974年的40亿，处在城市化、全球贸易和数字技术扩张的阶段，也直接连到2030年与2100年的预测条目。[1][2] 与1804年的10亿相比，两个多世纪里人口增长约八倍。放在138亿年的宇宙时间轴上，这只是非常短的一段，却集中了最大的人口变化。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

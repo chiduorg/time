@@ -18,6 +18,7 @@ related:
   - time.first_birds
   - time.cretaceous-period
   - time.dinosaurs
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Late%20Jurassic'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 晚侏罗世约 1840 万年，占侏罗纪约 5830 万年的 32%。[1] 它比中侏罗世长，却短于早白垩世；与始祖鸟条目相比，晚侏罗世是鸟类早期演化的关键窗口。[2] 1840 万年若按 80 年一代计算，约相当于二十三万代人；它比中侏罗世短，却留下了密集的恐龙化石记录。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

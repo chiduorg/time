@@ -18,6 +18,7 @@ related:
   - time.ai-era
   - time.earth-uninhabitable
   - time.future-supercontinent
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'AR6 Climate Change 2021: Summary for Policymakers'
@@ -28,6 +29,10 @@ sources:
     url: 'https://population.un.org/wpp/'
     publisher: United Nations, Department of Economic and Social Affairs
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: future
   plot: false
@@ -82,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 2100 年上接 2030 年与现在，下接公元 10000 年、百万年后和地球不再宜居等更远尺度。[1][2] 它比人的一生略长，却远短于地质与恒星演化时标。把 2100 年当作可检验的情景窗口，而非预言日期，才能正确使用这些推算。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

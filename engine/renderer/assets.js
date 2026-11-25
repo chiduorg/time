@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 // 纹理按 URL 缓存；页面离开或视口丢失时中止请求并释放位图。
-export function createTextureStore({base='/media/',invalidate=()=>{}}={}){
+export function createTextureStore({base='https://static.chidu.org/media/',invalidate=()=>{}}={}){
  const records=new Map();let disposed=false;
  const stats=()=>({pending:[...records.values()].filter(r=>r.state==='loading').length,loaded:[...records.values()].filter(r=>r.state==='ready').length,failed:[...records.values()].filter(r=>r.state==='failed').length,cancelled:[...records.values()].filter(r=>r.state==='cancelled').length});
  const publish=()=>dispatchEvent(new CustomEvent('atlas-assets',{detail:stats()}));
