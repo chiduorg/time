@@ -485,6 +485,41 @@
     ]
   },
   {
+    "id": "time.atomic-transition-x60",
+    "title": "原子跃迁 × 60：一次尺度换算",
+    "titleEn": "Atomic Transition × 60",
+    "summary": "以「原子跃迁」的 1.000×10^-08 s 为基准，按 ×60 换算得到 6.000×10^-07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "6.000×10^-07 s",
+    "quantity": {
+      "value": 6e-7,
+      "unit": "s",
+      "measure": "尺度换算量：time.atomic-transition 的 1.000×10^-08 s × 60",
+      "measureLabel": "由「原子跃迁」按 ×60 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.atomic-transition 的既有量值 1.000×10^-08 s 为基准，倍率 60；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "quantum-field",
+      "scene": "time.object",
+      "caption": "原子跃迁 × 60：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "time.hadron-era",
     "title": "夸克结合为强子的时代",
     "titleEn": "The Formation of Hadrons",
@@ -747,6 +782,41 @@
       "时点",
       "早期宇宙"
     ]
+  },
+  {
+    "id": "time.breath-x0p016666666666666666",
+    "title": "呼吸周期 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "Breathing Cycle × 0.0166667",
+    "summary": "以「呼吸周期」的 4 s 为基准，按 ×0.0166667 换算得到 0.0666667 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "0.0666667 s",
+    "quantity": {
+      "value": 0.06666666666666667,
+      "unit": "s",
+      "measure": "尺度换算量：time.breath 的 4 s × 0.0166667",
+      "measureLabel": "由「呼吸周期」按 ×0.0166667 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.breath 的既有量值 4 s 为基准，倍率 0.0166667；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "scientific-instrument",
+      "scene": "time.object",
+      "caption": "呼吸周期 × 0.0166667（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.blink",
@@ -1048,6 +1118,41 @@
     ]
   },
   {
+    "id": "time.protein-folding-x3600",
+    "title": "蛋白质折叠 × 3600：一次尺度换算",
+    "titleEn": "Protein Folding × 3600",
+    "summary": "以「蛋白质折叠」的 0.001 s 为基准，按 ×3600 换算得到 3.6 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.6 s",
+    "quantity": {
+      "value": 3.6,
+      "unit": "s",
+      "measure": "尺度换算量：time.protein-folding 的 0.001 s × 3600",
+      "measureLabel": "由「蛋白质折叠」按 ×3600 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.protein-folding 的既有量值 0.001 s 为基准，倍率 3600；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "microbial-study",
+      "scene": "time.object",
+      "caption": "蛋白质折叠 × 3600：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "time.breath",
     "title": "呼吸周期",
     "titleEn": "Breathing Cycle",
@@ -1087,6 +1192,80 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.minute-x0p1",
+    "title": "一分钟 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "One Minute × 0.1",
+    "summary": "以「一分钟」的 60 s 为基准，按 ×0.1 换算得到 6 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "6 s",
+    "quantity": {
+      "value": 6,
+      "unit": "s",
+      "measure": "尺度换算量：time.minute 的 60 s × 0.1",
+      "measureLabel": "由「一分钟」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.minute 的既有量值 60 s 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一分钟 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "clock"
+    }
+  },
+  {
+    "id": "time.second-x24",
+    "title": "一秒 × 24：一次尺度换算",
+    "titleEn": "One Second × 24",
+    "summary": "以「一秒」的 1 s 为基准，按 ×24 换算得到 24 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "24 s",
+    "quantity": {
+      "value": 24,
+      "unit": "s",
+      "measure": "尺度换算量：time.second 的 1 s × 24",
+      "measureLabel": "由「一秒」按 ×24 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.second 的既有量值 1 s 为基准，倍率 24；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一秒 × 24：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "clock"
+    }
   },
   {
     "id": "time.minute",
@@ -1270,6 +1449,43 @@
     ]
   },
   {
+    "id": "time.day-x0p016666666666666666",
+    "title": "一天 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "One Day × 0.0166667",
+    "summary": "以「一天」的 86,400 s 为基准，按 ×0.0166667 换算得到 1,440 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1,440 s",
+    "quantity": {
+      "value": 1440,
+      "unit": "s",
+      "measure": "尺度换算量：time.day 的 86,400 s × 0.0166667",
+      "measureLabel": "由「一天」按 ×0.0166667 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.day 的既有量值 86,400 s 为基准，倍率 0.0166667；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一天 × 0.0166667（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "calendar"
+    }
+  },
+  {
     "id": "time.hour",
     "title": "一小时",
     "titleEn": "One Hour",
@@ -1308,6 +1524,78 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.heartbeat-x10000",
+    "title": "心跳周期 × 10000：一次尺度换算",
+    "titleEn": "Heartbeat Interval × 10000",
+    "summary": "以「心跳周期」的 0.8 s 为基准，按 ×10000 换算得到 8,000 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "8,000 s",
+    "quantity": {
+      "value": 8000,
+      "unit": "s",
+      "measure": "尺度换算量：time.heartbeat 的 0.8 s × 10000",
+      "measureLabel": "由「心跳周期」按 ×10000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.heartbeat 的既有量值 0.8 s 为基准，倍率 10000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "scientific-instrument",
+      "scene": "time.object",
+      "caption": "心跳周期 × 10000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.mercury-year-x0p01",
+    "title": "水星年 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Mercury Year × 0.01",
+    "summary": "以「水星年」的 7.601×10^06 s 为基准，按 ×0.01 换算得到 76,008 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "76,008 s",
+    "quantity": {
+      "value": 76008,
+      "unit": "s",
+      "measure": "尺度换算量：time.mercury-year 的 7.601×10^06 s × 0.01",
+      "measureLabel": "由「水星年」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.mercury-year 的既有量值 7.601×10^06 s 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "水星年 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#7fa8c4",
+      "variant": "clock"
+    }
   },
   {
     "id": "time.cell-division",
@@ -1430,6 +1718,43 @@
     ]
   },
   {
+    "id": "time.season-x0p016666666666666666",
+    "title": "一个季节 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "One Season × 0.0166667",
+    "summary": "以「一个季节」的 7.890×10^06 s 为基准，按 ×0.0166667 换算得到 1.315×10^05 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.315×10^05 s",
+    "quantity": {
+      "value": 131500,
+      "unit": "s",
+      "measure": "尺度换算量：time.season 的 7.890×10^06 s × 0.0166667",
+      "measureLabel": "由「一个季节」按 ×0.0166667 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.season 的既有量值 7.890×10^06 s 为基准，倍率 0.0166667；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一个季节 × 0.0166667（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c9b98f",
+      "variant": "hourglass"
+    }
+  },
+  {
     "id": "time.week",
     "title": "一周",
     "titleEn": "One Week",
@@ -1468,6 +1793,41 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.circadian-rhythm-x10",
+    "title": "昼夜节律 × 10：一次尺度换算",
+    "titleEn": "Circadian Rhythm × 10",
+    "summary": "以「昼夜节律」的 87,048 s 为基准，按 ×10 换算得到 8.705×10^05 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "8.705×10^05 s",
+    "quantity": {
+      "value": 870480,
+      "unit": "s",
+      "measure": "尺度换算量：time.circadian-rhythm 的 87,048 s × 10",
+      "measureLabel": "由「昼夜节律」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.circadian-rhythm 的既有量值 87,048 s 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "scientific-instrument",
+      "scene": "time.object",
+      "caption": "昼夜节律 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.fortnight",
@@ -1551,6 +1911,78 @@
     ]
   },
   {
+    "id": "time.solar-cycle-x0p01",
+    "title": "太阳活动周期 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Solar Cycle × 0.01",
+    "summary": "以「太阳活动周期」的 3.471×10^08 s 为基准，按 ×0.01 换算得到 3.471×10^06 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.471×10^06 s",
+    "quantity": {
+      "value": 3471336,
+      "unit": "s",
+      "measure": "尺度换算量：time.solar-cycle 的 3.471×10^08 s × 0.01",
+      "measureLabel": "由「太阳活动周期」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.solar-cycle 的既有量值 3.471×10^08 s 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "stellar-cycle",
+      "scene": "time.object",
+      "caption": "太阳活动周期 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.week-x10",
+    "title": "一周 × 10：一次尺度换算",
+    "titleEn": "One Week × 10",
+    "summary": "以「一周」的 6.048×10^05 s 为基准，按 ×10 换算得到 6.048×10^06 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "6.048×10^06 s",
+    "quantity": {
+      "value": 6048000,
+      "unit": "s",
+      "measure": "尺度换算量：time.week 的 6.048×10^05 s × 10",
+      "measureLabel": "由「一周」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.week 的既有量值 6.048×10^05 s 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一周 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "calendar"
+    }
+  },
+  {
     "id": "time.mercury-year",
     "title": "水星年",
     "titleEn": "Mercury Year",
@@ -1590,6 +2022,41 @@
       "时长",
       "天文"
     ]
+  },
+  {
+    "id": "time.industrial-era-duration-x0p001",
+    "title": "工业时代时长 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "Duration of the Industrial Era × 0.001",
+    "summary": "以「工业时代时长」的 7.890×10^09 s 为基准，按 ×0.001 换算得到 7.890×10^06 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "7.890×10^06 s",
+    "quantity": {
+      "value": 7890000,
+      "unit": "s",
+      "measure": "尺度换算量：time.industrial-era-duration 的 7.890×10^09 s × 0.001",
+      "measureLabel": "由「工业时代时长」按 ×0.001 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.industrial-era-duration 的既有量值 7.890×10^09 s 为基准，倍率 0.001；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "工业时代时长 × 0.001（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.season",
@@ -1674,6 +2141,43 @@
     ]
   },
   {
+    "id": "time.fortnight-x24",
+    "title": "两周 × 24：一次尺度换算",
+    "titleEn": "Fortnight × 24",
+    "summary": "以「两周」的 1.210×10^06 s 为基准，按 ×24 换算得到 2.903×10^07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "2.903×10^07 s",
+    "quantity": {
+      "value": 29030400,
+      "unit": "s",
+      "measure": "尺度换算量：time.fortnight 的 1.210×10^06 s × 24",
+      "measureLabel": "由「两周」按 ×24 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.fortnight 的既有量值 1.210×10^06 s 为基准，倍率 24；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "两周 × 24：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c9b98f",
+      "variant": "hourglass"
+    }
+  },
+  {
     "id": "time.year",
     "title": "一年",
     "titleEn": "One Year",
@@ -1750,6 +2254,78 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.hour-x10000",
+    "title": "一小时 × 10000：一次尺度换算",
+    "titleEn": "One Hour × 10000",
+    "summary": "以「一小时」的 3,600 s 为基准，按 ×10000 换算得到 3.600×10^07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.600×10^07 s（约 1.14077 年）",
+    "quantity": {
+      "value": 36000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.hour 的 3,600 s × 10000",
+      "measureLabel": "由「一小时」按 ×10000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.hour 的既有量值 3,600 s 为基准，倍率 10000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一小时 × 10000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c9b98f",
+      "variant": "hourglass"
+    }
+  },
+  {
+    "id": "time.cell-division-x1000",
+    "title": "细胞分裂周期 × 1000：一次尺度换算",
+    "titleEn": "Cell Division Cycle × 1000",
+    "summary": "以「细胞分裂周期」的 86,400 s 为基准，按 ×1000 换算得到 8.640×10^07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "8.640×10^07 s（约 2.73785 年）",
+    "quantity": {
+      "value": 86400000,
+      "unit": "s",
+      "measure": "尺度换算量：time.cell-division 的 86,400 s × 1000",
+      "measureLabel": "由「细胞分裂周期」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.cell-division 的既有量值 86,400 s 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "microbial-study",
+      "scene": "time.object",
+      "caption": "细胞分裂周期 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.decade",
@@ -1904,6 +2480,43 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.month-x365",
+    "title": "一个月 × 365：一次尺度换算",
+    "titleEn": "One Month × 365",
+    "summary": "以「一个月」的 2.630×10^06 s 为基准，按 ×365 换算得到 9.599×10^08 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "9.599×10^08 s（约 30.416 年）",
+    "quantity": {
+      "value": 959857290,
+      "unit": "s",
+      "measure": "尺度换算量：time.month 的 2.630×10^06 s × 365",
+      "measureLabel": "由「一个月」按 ×365 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.month 的既有量值 2.630×10^06 s 为基准，倍率 365；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一个月 × 365：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "calendar"
+    }
   },
   {
     "id": "time.one-billion-seconds",
@@ -2067,6 +2680,78 @@
     ]
   },
   {
+    "id": "time.supernova-duration-x365",
+    "title": "超新星过程 × 365：一次尺度换算",
+    "titleEn": "Duration of a Supernova × 365",
+    "summary": "以「超新星过程」的 3.156×10^07 s 为基准，按 ×365 换算得到 1.152×10^10 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.152×10^10 s（约 365 年）",
+    "quantity": {
+      "value": 11518524000,
+      "unit": "s",
+      "measure": "尺度换算量：time.supernova-duration 的 3.156×10^07 s × 365",
+      "measureLabel": "由「超新星过程」按 ×365 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.supernova-duration 的既有量值 3.156×10^07 s 为基准，倍率 365；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "stellar-cycle",
+      "scene": "time.object",
+      "caption": "超新星过程 × 365：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.century-x10",
+    "title": "一个世纪 × 10：一次尺度换算",
+    "titleEn": "A Century × 10",
+    "summary": "以「一个世纪」的 3.156×10^09 s 为基准，按 ×10 换算得到 3.156×10^10 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.156×10^10 s（约 999.979 年）",
+    "quantity": {
+      "value": 31556952000,
+      "unit": "s",
+      "measure": "尺度换算量：time.century 的 3.156×10^09 s × 10",
+      "measureLabel": "由「一个世纪」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.century 的既有量值 3.156×10^09 s 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一个世纪 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "calendar"
+    }
+  },
+  {
     "id": "time.millennium",
     "title": "一千年",
     "titleEn": "A Millennium",
@@ -2183,6 +2868,78 @@
     ]
   },
   {
+    "id": "time.eccentricity-cycle-405kyr-x0p016666666666666666",
+    "title": "405 千年的轨道偏心周期 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "405,000-Year Orbital Eccentricity Cycle × 0.0166667",
+    "summary": "以「405 千年的轨道偏心周期」的 1.278×10^13 s 为基准，按 ×0.0166667 换算得到 2.130×10^11 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "2.130×10^11 s（约 6,750 年）",
+    "quantity": {
+      "value": 213013800000,
+      "unit": "s",
+      "measure": "尺度换算量：time.eccentricity-cycle-405kyr 的 1.278×10^13 s × 0.0166667",
+      "measureLabel": "由「405 千年的轨道偏心周期」按 ×0.0166667 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.eccentricity-cycle-405kyr 的既有量值 1.278×10^13 s 为基准，倍率 0.0166667；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "405 千年的轨道偏心周期 × 0.0166667（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a9c4a0",
+      "variant": "eccentricity"
+    }
+  },
+  {
+    "id": "time.species-lifetime-x0p01",
+    "title": "物种寿命 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Species Lifetime × 0.01",
+    "summary": "以「物种寿命」的 3.156×10^13 s 为基准，按 ×0.01 换算得到 3.156×10^11 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.156×10^11 s（约 10,000 年）",
+    "quantity": {
+      "value": 315576000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.species-lifetime 的 3.156×10^13 s × 0.01",
+      "measureLabel": "由「物种寿命」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.species-lifetime 的既有量值 3.156×10^13 s 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "fossil-study",
+      "scene": "time.object",
+      "caption": "物种寿命 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "time.precession-cycle",
     "title": "岁差周期",
     "titleEn": "Precession Cycle",
@@ -2261,6 +3018,78 @@
       "时长",
       "秒"
     ]
+  },
+  {
+    "id": "time.decade-x3600",
+    "title": "十年 × 3600：一次尺度换算",
+    "titleEn": "A Decade × 3600",
+    "summary": "以「十年」的 3.156×10^08 s 为基准，按 ×3600 换算得到 1.136×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.136×10^12 s（约 35,999.3 年）",
+    "quantity": {
+      "value": 1136050272000,
+      "unit": "s",
+      "measure": "尺度换算量：time.decade 的 3.156×10^08 s × 3600",
+      "measureLabel": "由「十年」按 ×3600 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.decade 的既有量值 3.156×10^08 s 为基准，倍率 3600；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "十年 × 3600：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "calendar"
+    }
+  },
+  {
+    "id": "time.c14-half-life-x7",
+    "title": "碳-14 半衰期 × 7：一次尺度换算",
+    "titleEn": "Carbon-14 Half-Life × 7",
+    "summary": "以「碳-14 半衰期」的 1.799×10^11 s 为基准，按 ×7 换算得到 1.259×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.259×10^12 s（约 39,900 年）",
+    "quantity": {
+      "value": 1259148240000,
+      "unit": "s",
+      "measure": "尺度换算量：time.c14-half-life 的 1.799×10^11 s × 7",
+      "measureLabel": "由「碳-14 半衰期」按 ×7 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.c14-half-life 的既有量值 1.799×10^11 s 为基准，倍率 7；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "nuclear-network",
+      "scene": "time.object",
+      "caption": "碳-14 半衰期 × 7：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.milankovitch-cycle",
@@ -2394,6 +3223,41 @@
     ]
   },
   {
+    "id": "time.human-lifespan-x1000",
+    "title": "人类寿命 × 1000：一次尺度换算",
+    "titleEn": "Human Lifespan × 1000",
+    "summary": "以「人类寿命」的 2.313×10^09 s 为基准，按 ×1000 换算得到 2.313×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "2.313×10^12 s（约 73,300 年）",
+    "quantity": {
+      "value": 2313172080000,
+      "unit": "s",
+      "measure": "尺度换算量：time.human-lifespan 的 2.313×10^09 s × 1000",
+      "measureLabel": "由「人类寿命」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.human-lifespan 的既有量值 2.313×10^09 s 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "人类寿命 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "time.first-molecules",
     "title": "早期分子：氦合氢离子",
     "titleEn": "Helium Hydride in Early Chemistry",
@@ -2437,6 +3301,222 @@
       "时点",
       "早期宇宙"
     ]
+  },
+  {
+    "id": "time.one-trillion-seconds-x7",
+    "title": "一万亿秒 × 7：一次尺度换算",
+    "titleEn": "One Trillion Seconds × 7",
+    "summary": "以「一万亿秒」的 1.000×10^12 s 为基准，按 ×7 换算得到 7.000×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "7.000×10^12 s（约 221,817 年）",
+    "quantity": {
+      "value": 7000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.one-trillion-seconds 的 1.000×10^12 s × 7",
+      "measureLabel": "由「一万亿秒」按 ×7 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.one-trillion-seconds 的既有量值 1.000×10^12 s 为基准，倍率 7；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一万亿秒 × 7：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#8fb7c9",
+      "variant": "trillion"
+    }
+  },
+  {
+    "id": "time.galactic-year-x0p001",
+    "title": "银河年 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "Galactic Year × 0.001",
+    "summary": "以「银河年」的 7.258×10^15 s 为基准，按 ×0.001 换算得到 7.258×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "7.258×10^12 s（约 230,000 年）",
+    "quantity": {
+      "value": 7258248000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.galactic-year 的 7.258×10^15 s × 0.001",
+      "measureLabel": "由「银河年」按 ×0.001 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.galactic-year 的既有量值 7.258×10^15 s 为基准，倍率 0.001；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "galaxy-assembly",
+      "scene": "time.object",
+      "caption": "银河年 × 0.001（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.civilization-duration-x60",
+    "title": "文明持续时间 × 60：一次尺度换算",
+    "titleEn": "Civilization Duration × 60",
+    "summary": "以「文明持续时间」的 1.578×10^11 s 为基准，按 ×60 换算得到 9.467×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "9.467×10^12 s（约 300,000 年）",
+    "quantity": {
+      "value": 9467280000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.civilization-duration 的 1.578×10^11 s × 60",
+      "measureLabel": "由「文明持续时间」按 ×60 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.civilization-duration 的既有量值 1.578×10^11 s 为基准，倍率 60；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "settlement-workshop",
+      "scene": "time.object",
+      "caption": "文明持续时间 × 60：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.internet-era-duration-x10000",
+    "title": "互联网时代时长 × 10000：一次尺度换算",
+    "titleEn": "Duration of the Internet Era × 10000",
+    "summary": "以「互联网时代时长」的 9.467×10^08 s 为基准，按 ×10000 换算得到 9.467×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "9.467×10^12 s（约 300,000 年）",
+    "quantity": {
+      "value": 9467280000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.internet-era-duration 的 9.467×10^08 s × 10000",
+      "measureLabel": "由「互联网时代时长」按 ×10000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.internet-era-duration 的既有量值 9.467×10^08 s 为基准，倍率 10000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "information-network",
+      "scene": "time.object",
+      "caption": "互联网时代时长 × 10000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.one-billion-seconds-x10000",
+    "title": "十亿秒 × 10000：一次尺度换算",
+    "titleEn": "One Billion Seconds × 10000",
+    "summary": "以「十亿秒」的 1.000×10^09 s 为基准，按 ×10000 换算得到 1.000×10^13 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.000×10^13 s（约 316,881 年）",
+    "quantity": {
+      "value": 10000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.one-billion-seconds 的 1.000×10^09 s × 10000",
+      "measureLabel": "由「十亿秒」按 ×10000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.one-billion-seconds 的既有量值 1.000×10^09 s 为基准，倍率 10000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "十亿秒 × 10000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "billion"
+    }
+  },
+  {
+    "id": "time.millennium-x365",
+    "title": "一千年 × 365：一次尺度换算",
+    "titleEn": "A Millennium × 365",
+    "summary": "以「一千年」的 3.156×10^10 s 为基准，按 ×365 换算得到 1.152×10^13 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.152×10^13 s（约 364,993 年）",
+    "quantity": {
+      "value": 11518287480000,
+      "unit": "s",
+      "measure": "尺度换算量：time.millennium 的 3.156×10^10 s × 365",
+      "measureLabel": "由「一千年」按 ×365 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.millennium 的既有量值 3.156×10^10 s 为基准，倍率 365；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一千年 × 365：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc1cf",
+      "variant": "calendar"
+    }
   },
   {
     "id": "time.baryon-acoustic-oscillations",
@@ -2690,6 +3770,115 @@
     ]
   },
   {
+    "id": "time.species-radiation-timescale-x0p1",
+    "title": "物种辐射时间尺度 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Species Radiation Timescale × 0.1",
+    "summary": "以「物种辐射时间尺度」的 3.156×10^14 s 为基准，按 ×0.1 换算得到 3.156×10^13 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "复杂生命与演化",
+    "displayValue": "3.156×10^13 s（约 1e+06 年）",
+    "quantity": {
+      "value": 31557600000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.species-radiation-timescale 的 3.156×10^14 s × 0.1",
+      "measureLabel": "由「物种辐射时间尺度」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.species-radiation-timescale 的既有量值 3.156×10^14 s 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "lineage-tree",
+      "scene": "time.object",
+      "caption": "物种辐射时间尺度 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b7a68a",
+      "variant": "radiation"
+    }
+  },
+  {
+    "id": "time.one-quadrillion-seconds-x0p1",
+    "title": "一千万亿秒 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "One Quadrillion Seconds × 0.1",
+    "summary": "以「一千万亿秒」的 1.000×10^15 s 为基准，按 ×0.1 换算得到 1.000×10^14 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.000×10^14 s（约 3.16881e+06 年）",
+    "quantity": {
+      "value": 100000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.one-quadrillion-seconds 的 1.000×10^15 s × 0.1",
+      "measureLabel": "由「一千万亿秒」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.one-quadrillion-seconds 的既有量值 1.000×10^15 s 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一千万亿秒 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#7fa9bd",
+      "variant": "quadrillion"
+    }
+  },
+  {
+    "id": "time.precession-cycle-x365",
+    "title": "岁差周期 × 365：一次尺度换算",
+    "titleEn": "Precession Cycle × 365",
+    "summary": "以「岁差周期」的 8.133×10^11 s 为基准，按 ×365 换算得到 2.969×10^14 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "2.969×10^14 s（约 9.40678e+06 年）",
+    "quantity": {
+      "value": 296855400528000,
+      "unit": "s",
+      "measure": "尺度换算量：time.precession-cycle 的 8.133×10^11 s × 365",
+      "measureLabel": "由「岁差周期」按 ×365 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.precession-cycle 的既有量值 8.133×10^11 s 为基准，倍率 365；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "planet-foundry",
+      "scene": "time.object",
+      "caption": "岁差周期 × 365：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "time.species-radiation-timescale",
     "title": "物种辐射时间尺度",
     "titleEn": "Species Radiation Timescale",
@@ -2773,6 +3962,43 @@
     ]
   },
   {
+    "id": "time.one-quintillion-seconds-x0p001",
+    "title": "一百亿亿秒 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "One Quintillion Seconds × 0.001",
+    "summary": "以「一百亿亿秒」的 1.000×10^18 s 为基准，按 ×0.001 换算得到 1.000×10^15 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.000×10^15 s（约 3.16881e+07 年）",
+    "quantity": {
+      "value": 1000000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.one-quintillion-seconds 的 1.000×10^18 s × 0.001",
+      "measureLabel": "由「一百亿亿秒」按 ×0.001 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.one-quintillion-seconds 的既有量值 1.000×10^18 s 为基准，倍率 0.001；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "一百亿亿秒 × 0.001（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#6f9bb1",
+      "variant": "quintillion"
+    }
+  },
+  {
     "id": "time.mountain-building",
     "title": "造山过程",
     "titleEn": "Duration of Mountain Building",
@@ -2809,6 +4035,41 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.erosion-cycle-x60",
+    "title": "侵蚀周期 × 60：一次尺度换算",
+    "titleEn": "Duration of an Erosion Cycle × 60",
+    "summary": "以「侵蚀周期」的 3.156×10^13 s 为基准，按 ×60 换算得到 1.893×10^15 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.893×10^15 s（约 6e+07 年）",
+    "quantity": {
+      "value": 1893456000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.erosion-cycle 的 3.156×10^13 s × 60",
+      "measureLabel": "由「侵蚀周期」按 ×60 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.erosion-cycle 的既有量值 3.156×10^13 s 为基准，倍率 60；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "planet-foundry",
+      "scene": "time.object",
+      "caption": "侵蚀周期 × 60：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.first-dark-matter-halos",
@@ -3748,6 +5009,41 @@
       "恒星演化",
       "s 过程"
     ]
+  },
+  {
+    "id": "time.mountain-building-x24",
+    "title": "造山过程 × 24：一次尺度换算",
+    "titleEn": "Duration of Mountain Building × 24",
+    "summary": "以「造山过程」的 1.578×10^15 s 为基准，按 ×24 换算得到 3.787×10^16 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.787×10^16 s（约 1.2e+09 年）",
+    "quantity": {
+      "value": 37869120000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.mountain-building 的 1.578×10^15 s × 24",
+      "measureLabel": "由「造山过程」按 ×24 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.mountain-building 的既有量值 1.578×10^15 s 为基准，倍率 24；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "catastrophe-section",
+      "scene": "time.object",
+      "caption": "造山过程 × 24：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.first-galaxy-merger",
@@ -12952,6 +14248,113 @@
     ]
   },
   {
+    "id": "time.earth-age-x10",
+    "title": "地球年龄 × 10：一次尺度换算",
+    "titleEn": "Age of Earth × 10",
+    "summary": "以「地球年龄」的 1.433×10^17 s 为基准，按 ×10 换算得到 1.433×10^18 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "太阳系与地球",
+    "displayValue": "1.433×10^18 s（约 4.54e+10 年）",
+    "quantity": {
+      "value": 1432715040000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.earth-age 的 1.433×10^17 s × 10",
+      "measureLabel": "由「地球年龄」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.earth-age 的既有量值 1.433×10^17 s 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "地球年龄 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#8fae9a",
+      "variant": "earth"
+    }
+  },
+  {
+    "id": "time.solar-red-giant-time-x24",
+    "title": "太阳红巨星时间 × 24：一次尺度换算",
+    "titleEn": "Time Until the Sun Becomes a Red Giant × 24",
+    "summary": "以「太阳红巨星时间」的 1.578×10^17 s 为基准，按 ×24 换算得到 3.787×10^18 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.787×10^18 s（约 1.2e+11 年）",
+    "quantity": {
+      "value": 3786912000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.solar-red-giant-time 的 1.578×10^17 s × 24",
+      "measureLabel": "由「太阳红巨星时间」按 ×24 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.solar-red-giant-time 的既有量值 1.578×10^17 s 为基准，倍率 24；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "stellar-cycle",
+      "scene": "time.object",
+      "caption": "太阳红巨星时间 × 24：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.continental-drift-cycle-x1000",
+    "title": "大陆漂移周期 × 1000：一次尺度换算",
+    "titleEn": "Supercontinent Cycle × 1000",
+    "summary": "以「大陆漂移周期」的 1.262×10^16 s 为基准，按 ×1000 换算得到 1.262×10^19 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "1.262×10^19 s（约 4e+11 年）",
+    "quantity": {
+      "value": 12623040000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.continental-drift-cycle 的 1.262×10^16 s × 1000",
+      "measureLabel": "由「大陆漂移周期」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.continental-drift-cycle 的既有量值 1.262×10^16 s 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "planet-foundry",
+      "scene": "time.object",
+      "caption": "大陆漂移周期 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "time.stellar-formation-ceases",
     "title": "恒星形成基本停止",
     "titleEn": "Star Formation Largely Ceases",
@@ -12992,6 +14395,117 @@
       "现在与未来",
       "未来"
     ]
+  },
+  {
+    "id": "time.moon-age-x1000",
+    "title": "月球年龄 × 1000：一次尺度换算",
+    "titleEn": "Age of the Moon × 1000",
+    "summary": "以「月球年龄」的 1.420×10^17 s 为基准，按 ×1000 换算得到 1.420×10^20 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "太阳系与地球",
+    "displayValue": "1.420×10^20 s（约 4.5e+12 年）",
+    "quantity": {
+      "value": 142009200000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.moon-age 的 1.420×10^17 s × 1000",
+      "measureLabel": "由「月球年龄」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.moon-age 的既有量值 1.420×10^17 s 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "月球年龄 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b8bcc4",
+      "variant": "moon"
+    }
+  },
+  {
+    "id": "time.sun-age-x3600",
+    "title": "太阳年龄 × 3600：一次尺度换算",
+    "titleEn": "Age of the Sun × 3600",
+    "summary": "以「太阳年龄」的 1.452×10^17 s 为基准，按 ×3600 换算得到 5.226×10^20 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "太阳系与地球",
+    "displayValue": "5.226×10^20 s（约 1.656e+13 年）",
+    "quantity": {
+      "value": 522593856000000000000,
+      "unit": "s",
+      "measure": "尺度换算量：time.sun-age 的 1.452×10^17 s × 3600",
+      "measureLabel": "由「太阳年龄」按 ×3600 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.sun-age 的既有量值 1.452×10^17 s 为基准，倍率 3600；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "chronometer",
+      "scene": "time.object",
+      "caption": "太阳年龄 × 3600：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#d9b36c",
+      "variant": "sun"
+    }
+  },
+  {
+    "id": "time.galaxy-cluster-crossing-x3600",
+    "title": "星系穿越星系团的时间 × 3600：一次尺度换算",
+    "titleEn": "Galaxy Cluster Crossing Time × 3600",
+    "summary": "以「星系穿越星系团的时间」的 3.156×10^17 s 为基准，按 ×3600 换算得到 1.136×10^21 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "星系与结构",
+    "displayValue": "1.136×10^21 s（约 3.6e+13 年）",
+    "quantity": {
+      "value": 1.1360736e+21,
+      "unit": "s",
+      "measure": "尺度换算量：time.galaxy-cluster-crossing 的 3.156×10^17 s × 3600",
+      "measureLabel": "由「星系穿越星系团的时间」按 ×3600 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.galaxy-cluster-crossing 的既有量值 3.156×10^17 s 为基准，倍率 3600；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "cosmic-web",
+      "scene": "time.object",
+      "caption": "星系穿越星系团的时间 × 3600：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#8fa9c9",
+      "variant": "cluster-crossing"
+    }
   },
   {
     "id": "time.last-stars",
@@ -13073,6 +14587,41 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.proton-decay-limit-x7",
+    "title": "质子衰变下限 × 7：一次尺度换算",
+    "titleEn": "Experimental Lower Limit on Proton Decay × 7",
+    "summary": "以「质子衰变下限」的 7.574×10^41 s 为基准，按 ×7 换算得到 5.302×10^42 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "5.302×10^42 s（约 1.68e+35 年）",
+    "quantity": {
+      "value": 5.3016767999999996e+42,
+      "unit": "s",
+      "measure": "尺度换算量：time.proton-decay-limit 的 7.574×10^41 s × 7",
+      "measureLabel": "由「质子衰变下限」按 ×7 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.proton-decay-limit 的既有量值 7.574×10^41 s 为基准，倍率 7；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "particle-reaction",
+      "scene": "time.object",
+      "caption": "质子衰变下限 × 7：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.proton-decay-era",
@@ -13195,6 +14744,76 @@
       "时长尺度",
       "时长"
     ]
+  },
+  {
+    "id": "time.black-hole-evaporation-x60",
+    "title": "黑洞蒸发时间 × 60：一次尺度换算",
+    "titleEn": "Black Hole Evaporation Time × 60",
+    "summary": "以「黑洞蒸发时间」的 6.600×10^77 s 为基准，按 ×60 换算得到 3.960×10^79 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.960×10^79 s（约 1.25485e+72 年）",
+    "quantity": {
+      "value": 3.96e+79,
+      "unit": "s",
+      "measure": "尺度换算量：time.black-hole-evaporation 的 6.600×10^77 s × 60",
+      "measureLabel": "由「黑洞蒸发时间」按 ×60 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.black-hole-evaporation 的既有量值 6.600×10^77 s 为基准，倍率 60；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "accretion-engine",
+      "scene": "time.object",
+      "caption": "黑洞蒸发时间 × 60：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "time.heat-death-time-x0p1",
+    "title": "热死亡时间 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Time to Heat Death × 0.1",
+    "summary": "以「热死亡时间」的 3.156×10^107 s 为基准，按 ×0.1 换算得到 3.156×10^106 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "cosmic-time",
+    "category": "时长尺度",
+    "displayValue": "3.156×10^106 s（约 1e+99 年）",
+    "quantity": {
+      "value": 3.1557599999999997e+106,
+      "unit": "s",
+      "measure": "尺度换算量：time.heat-death-time 的 3.156×10^107 s × 0.1",
+      "measureLabel": "由「热死亡时间」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 time.heat-death-time 的既有量值 3.156×10^107 s 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "reviewStatus": "reviewed",
+    "mode": "时长",
+    "chronology": {
+      "status": "duration",
+      "plot": false,
+      "note": "本条是持续时间/周期的倍率换算，不是大爆炸后的绝对时点，不放在绝对时间轴上。"
+    },
+    "visual": {
+      "template": "cosmic-web",
+      "scene": "time.object",
+      "caption": "热死亡时间 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "time.heat-death",
