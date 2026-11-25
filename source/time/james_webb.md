@@ -23,7 +23,7 @@ sources:
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
   - title: Webb mission overview
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Webb'
+    url: 'https://sci.esa.int/web/jwst'
     publisher: European Space Agency
     accessed: '2026-11-06'
   - title: Webb Reveals Early-Universe Prequel to Huge Galaxy Cluster
